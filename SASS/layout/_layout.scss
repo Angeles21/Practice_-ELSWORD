@@ -1,0 +1,26 @@
+/* THIS IS FOR THE SECTIONS */
+@import "./header";
+
+.second__container {
+	height: 100vh;
+	width: auto;
+	max-width: 1700px;
+}
+
+.background {
+	background-image: url(/img/wallpaper_1.png);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	padding: 8%;
+
+	&__text {
+		font-size: 4em;
+		padding-left: 3vh;
+	}
+	&__text2 {
+		font-style: italic;
+		padding-left: 3vh;
+	}
+}
