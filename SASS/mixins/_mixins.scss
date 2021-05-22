@@ -65,6 +65,9 @@
 }
 
 @media (max-width: 500px) {
+	.background {
+		background-image: url(/img/wallpaper_2.png);
+	}
 	.background__text {
 		font-size: 3.6rem;
 	}
